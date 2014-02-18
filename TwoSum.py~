@@ -1,0 +1,20 @@
+class Solution:
+    # @return a tuple, (index1, index2)
+    def twoSum(self, num, target):
+        n = len(num)
+        a = []
+        for i in range(n):
+            a.append(num[i])
+            
+        num.sort()
+        
+        for i in range(n):
+            print num[i],
+            
+        print
+        for i in range(n):
+            print a[i],
+                    
+       
+run = Solution()
+run.twoSum([2, 7, 14, 11, 15], 9)
